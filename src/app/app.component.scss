@@ -1,0 +1,145 @@
+
+
+
+@import '~sass/functions';
+.navbar-toggler-icon{
+    background-color:white;
+    color: black
+}
+.navbar{
+    .fa{
+        font-size: 20px;
+    }
+    background-color:#1a8c97; 
+  
+    .navbar-brand{
+  color: set-text-color(#1a8c97);
+    }
+   
+}
+
+.nav-link:hover{
+    background-color: darken(#1a8c97,10%);
+    color: white
+}
+.nav-link{
+    color:lightgray
+}
+.showcase{
+    
+    height: 600px;
+    padding: 30px 0px;
+    .container{
+        background: #fff;
+        opacity: 0.7;
+        padding: 20px 30px 20px 20px;
+    }
+}
+.section-a {
+  
+  
+    padding: 30px 0px;
+    background-color: #1a8c97;
+    text-align: center;
+    color: set-text-color(#1a8c97);
+    h1{
+      text-align: center;
+      color:set-text-color(#1a8c97);
+  }
+        .fa{
+        font-size:60px;
+    }
+    .fa-html5{
+         transition:transform 200ms ease-in-out ;
+
+
+    }
+    .fa-gear{
+        transition:transform 200ms ease-in-out ;
+
+    }
+    .fa-lightbulb-o{
+        transition:transform 200ms ease-in-out ;
+
+    }
+}
+.fa-html5:hover{
+    transform: scale(1.5);
+}
+.fa-lightbulb-o:hover{
+    transform: scale(1.5);
+}
+
+.fa-gear:hover{
+    transform: scale(1.5);
+}
+.card-header{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #1a8c97;
+    .btn-link{
+   color: #fff;
+    }
+
+    
+}
+.section-b{
+  background:#e6ebf1;
+  padding: 30px 0;
+
+  img{
+    width:100%;
+  }
+ 
+}
+.section-c{
+    background-color: #1a8c97;
+    padding:50px 0px;
+    text-align: center;
+    .btn{
+        margin-top:10px;
+        background-color: darken(#1a8c97,10%);
+        border-radius: 0;
+        width: 200px;
+        transition:transform 200ms ease-in-out ;
+        &:hover{
+            transform: scale(1.1);
+
+        }
+    }
+    
+}
+.section-b{
+  background:#1a8c97;;
+  padding: 30px 0;
+
+ 
+ 
+}
+
+.team{
+   
+    margin-top: 40px;
+    padding-top: 40px;
+     background-color:#1a8c97; 
+    color: set-text-color(#1a8c97);
+    text-align: center;
+    text-decoration-style:underline;
+     .row{
+         padding-top: 20px
+     }
+     .nav-link{
+         color: white;
+     }
+   
+    .teamImg{
+        border-radius: 50%;
+        width:130px;
+        height:130px
+    }
+    h4{
+        text-align: center;
+        padding-top: 100px;
+    }
+   
+}
